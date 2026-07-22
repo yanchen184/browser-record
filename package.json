@@ -1,0 +1,25 @@
+{
+  "name": "browser-record",
+  "version": "1.0.0",
+  "description": "Claude Code skill：錄製瀏覽器操作影片，含注入式視覺化假游標，產出教學 / demo 影片",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "playwright",
+    "screen-recording",
+    "demo-video",
+    "screencast"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanchen184/browser-record.git"
+  },
+  "scripts": {
+    "record": "node scripts/record.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.61.1"
+  }
+}

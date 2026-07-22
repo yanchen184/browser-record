@@ -1,0 +1,6 @@
+node_modules/
+*.mp4
+*.mov
+*.webm
+verify_click_*.png
+.browser-record-tmp/
